@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .App-logo {
@@ -13,26 +14,10 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Welcome {
+  margin: 70px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ExperienceDetails {
+  margin: 10px;
 }
