@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "DomaineDisplayNarrow", Georgia, serif;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .App-logo {
@@ -8,6 +10,9 @@
   pointer-events: none;
 }
 
+.headshot {
+  height: 400px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

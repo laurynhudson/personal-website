@@ -6,6 +6,14 @@ function App() {
       <div className="Welcome">
         <h1>Hi, I'm Lauryn!</h1>
       </div>
+      <div>
+        <img
+          className="headshot"
+          src="../headshot.jpg"
+          alt="black girl
+          technologist"
+        ></img>
+      </div>
       <div className="Intro">
         <h5>
           I am a software engineer in FinTech who is curious and passionate
