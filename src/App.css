@@ -26,19 +26,23 @@
 }
 
 .MyName {
-  margin: 70px;
+  margin: 60px;
 }
 
 .Welcome {
   margin: 100px;
 }
 
+.What {
+  margin: 50px;
+  padding: 50px;
+}
+
 .Experience {
-  margin: 100px;
-  padding: 100px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .Intro {
   margin: 100px;
-  padding: 50px;
 }
