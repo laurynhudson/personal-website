@@ -6,3 +6,7 @@
   background-color: lavender;
   padding: 50px;
 }
+
+.inactive {
+  color: #311432;
+}

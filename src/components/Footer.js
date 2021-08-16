@@ -13,8 +13,8 @@ const FooterComponent = (props) => {
     <div className="footerContainer">
       <Navbar color="lavender" light expand="md">
         <NavbarBrand href="/">CONNECT WITH ME</NavbarBrand>
-        <Nav className="container-fluid" navbar>
-          <NavItem className="ml-auto">
+        <Nav className="ms-auto">
+          <NavItem>
             <NavLink href="/components/">email</NavLink>
           </NavItem>
           <NavItem>
@@ -22,8 +22,10 @@ const FooterComponent = (props) => {
               linkedin
             </NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink>twitter</NavLink>
+          </NavItem>
         </Nav>
-        <NavbarText className="ml-auto">twitter</NavbarText>
       </Navbar>
     </div>
   );

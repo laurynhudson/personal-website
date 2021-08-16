@@ -24,22 +24,22 @@ const NavbarComponent = (props) => {
     <div className="navContainer">
       <Navbar color="lavender" light expand="md">
         <NavbarBrand href="/">Lauryn Hudson</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="container-fluid" navbar>
-            <NavItem>
-              <NavLink href="/components/">Software Engineer</NavLink>
+        <Nav>
+        <NavItem>
+              <NavbarText>Software Engineer</NavbarText>
             </NavItem>
             </Nav>
-            <Nav className="w-25">
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+            <Nav className="ms-auto">
             <NavItem>
-            <NavbarText>Resume |</NavbarText>
+            <NavLink>Resume</NavLink>
             </NavItem>
             <NavItem>
-            <NavbarText>Projects |</NavbarText>
+            <NavLink>Projects</NavLink>
             </NavItem>
             <NavItem>
-            <NavbarText>Blog</NavbarText>
+            <NavLink>Blog</NavLink>
             </NavItem>
             </Nav>
         </Collapse>
