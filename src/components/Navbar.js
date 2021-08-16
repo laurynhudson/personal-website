@@ -23,31 +23,25 @@ const NavbarComponent = (props) => {
   return (
     <div className="navContainer">
       <Navbar color="lavender" light expand="md">
-        <NavbarBrand href="/">home</NavbarBrand>
+        <NavbarBrand href="/">Lauryn Hudson</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="container-fluid" navbar>
             <NavItem>
-              <NavLink href="/components/">experience</NavLink>
+              <NavLink href="/components/">Software Engineer</NavLink>
+            </NavItem>
+            </Nav>
+            <Nav className="w-25">
+            <NavItem>
+            <NavbarText>Resume |</NavbarText>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                github
-              </NavLink>
+            <NavbarText>Projects |</NavbarText>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                links
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-          </Nav>
-          <NavbarText className="ml-auto">icon</NavbarText>
+            <NavItem>
+            <NavbarText>Blog</NavbarText>
+            </NavItem>
+            </Nav>
         </Collapse>
       </Navbar>
     </div>

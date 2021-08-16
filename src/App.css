@@ -1,13 +1,19 @@
 .App {
   text-align: center;
-  font-family: "DomaineDisplayNarrow", Georgia, serif;
+  font-family: WorkSans-Regular;
   font-weight: bold;
   font-style: normal;
   background-color: lavender;
 }
 
-.headshot {
-  height: 300px;
+@font-face {
+  font-family: WorkSans-SemiBold;
+  src: url(./styling/WorkSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: WorkSans-Regular;
+  src: url(./styling/WorkSans-SemiBold.ttf);
 }
 
 @keyframes fadein {
@@ -19,30 +25,47 @@
   }
 }
 
-.MyName {
-  animation-duration: 5s;
-  animation-name: fadein;
-  animation-iteration-count: 1;
+.split-left {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  overflow-x: hidden;
+  margin-top: 100px;
+  padding-top: 200px;
+  margin-bottom: 300px;
+  left: 0;
+  background-color: lavender;
 }
 
-.MyName {
-  margin: 60px;
+.split-right {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  overflow-x: hidden;
+  margin-top: 100px;
+  justify-content: left;
+  padding-top: 200px;
+  padding-bottom: 300x;
+  padding-right: 300px;
+  right: 0;
+  background-color: lavender;
+  text-align: left;
 }
 
-.Welcome {
-  margin: 100px;
-}
-
-.What {
-  margin: 50px;
-  padding: 50px;
-}
-
-.Experience {
-  margin: 10px;
-  padding: 10px;
+.centered img {
+  width: 400px;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 100%;
 }
 
 .Intro {
-  margin: 100px;
+  font-size: 72px;
+}
+
+.headshot {
+  margin-left: 250px;
+  padding-bottom: 200px;
 }

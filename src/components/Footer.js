@@ -12,7 +12,7 @@ const FooterComponent = (props) => {
   return (
     <div className="footerContainer">
       <Navbar color="lavender" light expand="md">
-        <NavbarBrand href="/">CONNECT WITH ME 📲</NavbarBrand>
+        <NavbarBrand href="/">CONNECT WITH ME</NavbarBrand>
         <Nav className="container-fluid" navbar>
           <NavItem className="ml-auto">
             <NavLink href="/components/">email</NavLink>
