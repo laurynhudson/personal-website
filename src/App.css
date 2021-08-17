@@ -47,7 +47,7 @@
   margin-top: 100px;
   justify-content: left;
   padding-top: 200px;
-  padding-bottom: 300x;
+  padding-bottom: 300px;
   padding-right: 300px;
   right: 0;
   background-color: lavender;
@@ -62,10 +62,27 @@
 }
 
 .Intro {
-  font-size: 72px;
+  font-size: 60px;
 }
 
 .headshot {
   margin-left: 250px;
   padding-bottom: 200px;
+}
+
+.round {
+  border-radius: 70%;
+  border-width: 0.5px;
+  margin-right: 50px;
+  height: 90px;
+  width: 82px;
+  background-color: lightblue;
+}
+
+.pink {
+  background-color: lavenderblush;
+}
+
+.grey {
+  background-color: lightcyan;
 }

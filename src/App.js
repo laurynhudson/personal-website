@@ -1,7 +1,7 @@
 import "./App.css";
 import NavbarComponent from "./components/Navbar";
 import FooterComponent from "./components/Footer";
-import { Card, CardTitle, CardBody, CardText, Row, Col } from "reactstrap";
+import { Button, Card, CardTitle, CardBody, CardText, Row, Col } from "reactstrap";
 
 function App() {
   return (
@@ -20,15 +20,12 @@ function App() {
         <div className="about">
         <h4>Who I am + what I do</h4>
         <p>
-          I'm a Software Engineer who is
-          <i> passionate </i> about how to use technology to make the world a
-          better place. My mission is to help tech become a more{" "}
-          <i>inclusive</i> space, by helping bridge the gap betweent the
-          industry and communities who have historically been underrepresented,
-          along with helping society become more <i>sustainable </i>
-          through technology.{" "}
+          I'm a SWE with experience at the largest financial institution in the US. My mission: to help tech become a more{" "}
+          inclusive space, along with helping society become more sustainable through technology.{" "}
         </p>
-        <p>🌎♻️❤️🤝</p>
+          <button className="round pink">Resume</button>
+          <button className="round">Projects</button>
+          <button className="round grey">Blog</button>
         </div>
         </div>
       </div>
