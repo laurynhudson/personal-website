@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import NavbarComponent from "./components/Navbar";
 import FooterComponent from "./components/Footer";
+import ResumeComponent from "./components/Resume";
 
 function App() {
   const Home = () => {
@@ -27,7 +28,8 @@ function App() {
               <h4>Who I am + what I do</h4>
               <p>
                 I'm a Software Engineer at JP Morgan Chase & Co. My mission: to
-                help tech become a more inclusive space, along with helping
+                help tech become a more inclusive space by helping bridge the
+                gap between the industry and underrepresented groups + helping
                 society become more sustainable through technology.{" "}
               </p>
               <Link to="/resume">
@@ -61,7 +63,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/resume" component={Resume}></Route>
+        <Route path="/resume" component={ResumeComponent}></Route>
         <Route path="/projects" component={Projects}></Route>
         <Route path="/" component={Home} exact></Route>
         <Route path="/blog" component={Blog}></Route>

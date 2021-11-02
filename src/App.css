@@ -76,7 +76,7 @@
   margin-right: 50px;
   height: 90px;
   width: 82px;
-  background-color: lightblue;
+  background-color: #a1caf1;
 }
 
 .pink {
@@ -84,5 +84,5 @@
 }
 
 .grey {
-  background-color: pink;
+  background-color: #fddde6;
 }

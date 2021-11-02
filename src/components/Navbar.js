@@ -25,23 +25,29 @@ const NavbarComponent = (props) => {
       <Navbar color="lavender" light expand="md">
         <NavbarBrand href="/">Lauryn Hudson</NavbarBrand>
         <Nav>
-        <NavItem>
-              <NavbarText>Software Engineer</NavbarText>
-            </NavItem>
-            </Nav>
+          <NavItem>
+            <NavbarText>Software Engineer</NavbarText>
+          </NavItem>
+        </Nav>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-            <Nav className="ms-auto">
+          <Nav className="ms-auto">
             <NavItem>
-            <NavLink style={{color: "black"}}>Resume</NavLink>
+              <NavLink href="/resume" style={{ color: "black" }}>
+                Resume
+              </NavLink>
             </NavItem>
             <NavItem>
-            <NavLink style={{color: "black"}}>Projects</NavLink>
+              <NavLink href="/projects" style={{ color: "black" }}>
+                Projects
+              </NavLink>
             </NavItem>
             <NavItem>
-            <NavLink style={{color: "black"}}>Blog</NavLink>
+              <NavLink href="/blog" style={{ color: "black" }}>
+                Blog
+              </NavLink>
             </NavItem>
-            </Nav>
+          </Nav>
         </Collapse>
       </Navbar>
     </div>
