@@ -6,3 +6,8 @@
   width: 100%;
   padding: 50px;
 }
+
+/*why is this not setting the hover color?*/
+.Navbar:hover {
+  color: rebeccapurple;
+}

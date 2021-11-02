@@ -33,13 +33,13 @@ const NavbarComponent = (props) => {
         <Collapse isOpen={isOpen} navbar>
             <Nav className="ms-auto">
             <NavItem>
-            <NavLink>Resume</NavLink>
+            <NavLink style={{color: "black"}}>Resume</NavLink>
             </NavItem>
             <NavItem>
-            <NavLink>Projects</NavLink>
+            <NavLink style={{color: "black"}}>Projects</NavLink>
             </NavItem>
             <NavItem>
-            <NavLink>Blog</NavLink>
+            <NavLink style={{color: "black"}}>Blog</NavLink>
             </NavItem>
             </Nav>
         </Collapse>

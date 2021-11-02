@@ -10,3 +10,8 @@
 .inactive {
   color: #311432;
 }
+
+/*why is this not setting the hover color?*/
+.NavLink:hover {
+  color: rebeccapurple;
+}

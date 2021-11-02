@@ -15,15 +15,15 @@ const FooterComponent = (props) => {
         <NavbarBrand href="/">CONNECT WITH ME</NavbarBrand>
         <Nav className="ms-auto">
           <NavItem>
-            <NavLink href="">Email</NavLink>
+            <NavLink style={{color: "black"}} href="">Email</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="https://www.linkedin.com/in/lauryn-hudson/">
+            <NavLink style={{color: "black"}} href="https://www.linkedin.com/in/lauryn-hudson/">
               Linkedin
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="https://twitter.com/___lauryn">Twitter</NavLink>
+            <NavLink style={{color: "black"}} href="https://twitter.com/___lauryn">Twitter</NavLink>
           </NavItem>
         </Nav>
       </Navbar>
