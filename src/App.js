@@ -25,12 +25,12 @@ function App() {
           <div className="centered">
             <div className="Intro">Hello</div>
             <div className="about">
-              <h4>Who I am + what I do</h4>
+              <h4>I'm Lauryn</h4>
               <p>
-                I'm a Software Engineer at JP Morgan Chase & Co. My mission: to
-                help tech become a more inclusive space by helping bridge the
-                gap between the industry and underrepresented groups + helping
-                society become more sustainable through technology.{" "}
+                I’m a creative frontend developer with a focus on UI/UX design.
+                I believe that crafting an engaging and inclusive user
+                experience is most important when building technology for
+                people.
               </p>
               <Link to="/resume">
                 <button className="round pink">Resume</button>
