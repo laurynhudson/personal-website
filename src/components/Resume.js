@@ -4,7 +4,8 @@ import "../styling/Resume.css";
 const ResumeComponent = () => {
   return (
     <div className="Experience">
-      <Row>
+      <iframe src="file:///C:/Users/laury/OneDrive/Documents/LaurynHudsonResume.pdf" />
+      {/* <Row>
         <Col sm="12">
           <Card
             className="ExperienceDetails"
@@ -86,7 +87,7 @@ const ResumeComponent = () => {
             </CardBody>
           </Card>
         </Col>
-      </Row>
+      </Row> */}
     </div>
   );
 };

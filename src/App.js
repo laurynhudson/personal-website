@@ -14,7 +14,7 @@ function App() {
           <div className="centered">
             <div className="headshot">
               <img
-                src="../headshotlilac.jpg"
+                src="../nyheadshot.jfif"
                 alt="Black woman in tech"
                 height="270px"
               ></img>

@@ -22,7 +22,7 @@ const NavbarComponent = (props) => {
 
   return (
     <div className="navContainer">
-      <Navbar color="lavender" light expand="md">
+      <Navbar light expand="md">
         <NavbarBrand href="/">Lauryn Hudson</NavbarBrand>
         <Nav>
           <NavItem>

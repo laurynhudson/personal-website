@@ -11,7 +11,7 @@ import {
 const FooterComponent = (props) => {
   return (
     <div className="footerContainer">
-      <Navbar color="lavender" light expand="md">
+      <Navbar light expand="md">
         <NavbarBrand href="/">CONNECT WITH ME</NavbarBrand>
         <Nav className="ms-auto">
           <NavItem>

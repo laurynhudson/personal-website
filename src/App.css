@@ -3,7 +3,6 @@
   font-family: WorkSans-Regular;
   font-weight: bold;
   font-style: normal;
-  background-color: lavender;
 }
 
 @font-face {
@@ -35,7 +34,6 @@
   padding-top: 170px;
   margin-bottom: 300px;
   left: 0;
-  background-color: lavender;
 }
 
 .split-right {
@@ -50,7 +48,6 @@
   padding-bottom: 300px;
   padding-right: 300px;
   right: 0;
-  background-color: lavender;
   text-align: left;
 }
 
@@ -80,9 +77,9 @@
 }
 
 .pink {
-  background-color: lavenderblush;
+  background-color: lavender;
 }
 
 .grey {
-  background-color: #fddde6;
+  background-color: lightblue;
 }
